@@ -1,0 +1,424 @@
+* {
+  color: #555;
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* ===================================Header Section All CSS Styles Starts Here===================== */
+
+header {
+  /* border: 4px solid green; */
+  background-color: #fdf2e9;
+}
+
+.nav-bar {
+  /* border: 3px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 35px;
+}
+
+.loggo-div {
+  /* border: 2px solid blue; */
+  width: 140px;
+}
+
+.loggo-div img {
+  width: 90%;
+}
+
+.nav-links-container {
+  /* border: 2px solid red; */
+}
+
+.nav-links-container a {
+  margin-right: 42px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+}
+
+.nav-links-container a:hover {
+  color: #e67e22;
+}
+
+.nav-links-container button {
+  background-color: #e67e22;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 7px 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+}
+
+.nav-links-container button:hover {
+  background-color: #a85e1d;
+}
+
+.header-content {
+  /* border: 3px solid red; */
+  width: 85%;
+  margin: 30px auto;
+  display: flex;
+  padding: 30px 15px;
+}
+
+.left-header {
+  /* border: 2px solid green; */
+  width: 50%;
+  margin-right: 50px;
+}
+
+.left-header h1 {
+  font-size: 2.6em;
+  width: 420px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #333;
+}
+
+.left-header p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin-bottom: 3.5rem;
+}
+
+.start-eatbtn {
+  padding: 8px 13px;
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+  border-radius: 3px;
+  background-color: #e67e22;
+  color: white;
+  cursor: pointer;
+}
+
+.learn-btn {
+  padding: 8px 13px;
+  font-size: 17px;
+  font-weight: 600;
+  border: 1px solid rgb(49, 49, 49);
+  border-radius: 3px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.small-img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.s01,
+.s02,
+.s03,
+.s04,
+.s05 {
+  margin-left: -22px;
+}
+
+.right-div {
+  font-weight: 700;
+}
+
+.right-div span {
+  font-size: 17px;
+  font-weight: 700;
+  color: #e67e22;
+  margin-left: 15px;
+}
+
+.right-header {
+  /* border: 2px solid blueviolet; */
+  width: 50%;
+}
+
+.right-header img {
+  width: 95%;
+}
+
+.delivered-members {
+  /* border: 3px solid yellow; */
+  margin-top: 3.5rem;
+  display: flex;
+  align-items: center;
+}
+/* ===============================================END====================================== */
+/* ===========================================================================================================
+============================================================================================================== */
+main {
+  /* border: 4px solid black; */
+}
+
+.features-div {
+  /* border: 3px solid red; */
+  width: 80%;
+  margin: auto;
+}
+
+.features-div p {
+  text-align: center;
+}
+
+.loggos-section {
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.loggos-section img {
+  height: 28px;
+  filter: grayscale(90%);
+}
+
+.featured-02 {
+  /* border: 2px solid green; */
+  margin-top: 65px;
+}
+
+.featured-02 h4 {
+  color: #e67e22;
+}
+
+.featured-02 h1 {
+  color: black;
+}
+
+.featured-03 {
+  /* border: 3px solid yellow; */
+  display: flex;
+}
+
+.featured-03-left {
+  /* border: 2px solid blue; */
+  width: 50%;
+  padding: 30px;
+}
+
+.div111 {
+  font-size: 4.6rem;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 1.2rem;
+}
+
+.featured-03-right {
+  /* border: 2px solid red; */
+  width: 50%;
+  padding: 10px 18px;
+}
+
+.featured-03-left-p {
+  text-align: center;
+  line-height: 26px;
+}
+
+.circle-deco-out {
+  border: 38px solid #fdf2e9;
+  /* text-align: center; */
+  position: relative;
+  width: 180px;
+  height: 180px;
+  margin: 55px auto;
+  background-color: #fae5d3;
+  border-radius: 50%;
+}
+
+.circle-deco-out img {
+  width: 150px;
+  position: absolute;
+  top: -60px;
+  right: 15px;
+}
+
+.feature-04 {
+  /* border: 3px solid green; */
+  display: flex;
+}
+
+.feature-04-left {
+  /* border: 2px solid red; */
+  width: 50%;
+}
+
+.feature-04-right {
+  /* border: 2px solid blueviolet; */
+  width: 50%;
+  margin: 100px 18px 10px;
+}
+
+.feature-05 {
+  /* border: 3px solid blue; */
+  display: flex;
+}
+
+.feature-05-left {
+  /* border: 2px solid yellow; */
+  width: 50%;
+  padding: 60px 30px;
+}
+
+.feature-05-right {
+  /* border: 2px solid springgreen; */
+  width: 50%;
+}
+
+.feature-06 {
+  /* border: 3px solid yellow; */
+  margin-top: 150px;
+}
+
+.feature-06-top {
+  /* border: 2px solid blueviolet; */
+  text-align: center;
+}
+
+.feature-06-top p {
+  color: #e67e22;
+}
+
+.feature-06-top h1 {
+  color: black;
+}
+
+.feature-06-grid {
+  /* border: 2px solid cyan; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 55px;
+  padding: 10px;
+}
+
+.the-columns {
+  /* width: 350px; */
+  border-radius: 10px;
+}
+
+.feature-06-col1 {
+  /* border: 2px solid blue; */
+  /* padding-left: 24px; */
+}
+
+.shadows {
+  box-shadow: 0 1.4rem 3.4rem rgba(0, 0, 0, 0.075);
+}
+
+.img-container {
+  /* border: 2px solid red; */
+  height: 180px;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.meal-details {
+  /* border: 2px solid rgb(249, 0, 112); */
+  padding: 15px 25px;
+}
+
+.the-details {
+  /* border: 2px solid yellow; */
+  margin-top: 5px;
+}
+
+.meal-nam {
+  /* border: 2px solid cyan; */
+  /* padding: 18px 25px; */
+  display: flex;
+}
+
+.meal-details h3 {
+  margin-top: 8px;
+}
+
+.span1 {
+  color: black;
+  background-color: #51cf66;
+  padding: 1px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-right: 12px;
+}
+
+.span2 {
+  color: black;
+  background-color: #ffd43b;
+  padding: 1px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.calories-info {
+  /* border: 2px solid black; */
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.calories-info i {
+  margin-right: 10px;
+  font-size: 19px;
+  color: #e67e22;
+}
+
+.nitroscore-info {
+  /* border: 2px solid red; */
+  display: flex;
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.nitroscore-info i {
+  margin-right: 10px;
+  font-size: 19px;
+  color: #e67e22;
+}
+
+.ratings-info {
+  /* border: 2px solid blue; */
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.ratings-info i {
+  margin-right: 10px;
+  font-size: 19px;
+  color: #e67e22;
+}
+
+.div33 {
+  margin-bottom: 12px;
+}
+
+.fa-check {
+  margin-right: 10px;
+  font-size: 19px;
+  color: #e67e22;
+}
+
+.bottom-link {
+  /* border: 2px solid red; */
+  text-align: center;
+  margin: 25px;
+}
+
+.bottom-link a {
+  color: #e67e22;
+  font-size: 15px;
+}
