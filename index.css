@@ -162,7 +162,7 @@ main {
 }
 
 .features-div {
-  /* border: 5px solid red; */
+  border: 5px solid red;
   width: 95%;
   margin: auto;
 }
@@ -426,7 +426,7 @@ main {
 }
 
 .feature-07 {
-  /* border: 3px solid black; */
+  border: 3px solid black;
   margin-top: 70px;
   display: flex;
   padding: 10px;
@@ -456,6 +456,7 @@ main {
 .feature-07-left-top a {
   color: #e67e22;
   font-size: 15px;
+  text-decoration: none;
 }
 
 .feature-07-left-top h2 {
@@ -510,4 +511,59 @@ main {
 
 .food1 img {
   width: 100%;
+}
+
+.feature-08 {
+  border: 3px solid blue;
+  margin: 80px auto;
+  width: 85%;
+}
+
+.feature-08-top {
+  border: 3px solid red;
+  margin: 20px;
+}
+
+.feature-08-top a {
+  color: #e67e22;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.feature-08-bottom {
+  border: 3px solid green;
+  margin: 80px auto 30px;
+  width: 70%;
+}
+
+.feature-08-bottom-div111 {
+  border: 2px solid red;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.feature-08-bottom-div111 a {
+  color: #e67e22;
+  text-decoration: none;
+}
+
+.feature-08-bottom-div111 p {
+  color: black;
+  font-size: 44px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.feature-08-bottom-div111 span {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+.feature-08-bottom-div111 .lists {
+  border: 2px solid red;
+  margin-top: 40px;
+  text-align: start;
+  padding: 10px;
 }
