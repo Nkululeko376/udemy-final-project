@@ -520,7 +520,7 @@ main {
 }
 
 .feature-08-top {
-  border: 3px solid red;
+  /* border: 3px solid red; */
   margin: 20px;
 }
 
@@ -531,39 +531,99 @@ main {
 }
 
 .feature-08-bottom {
-  border: 3px solid green;
+  /* border: 3px solid green; */
   margin: 80px auto 30px;
-  width: 70%;
+  width: 85%;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 55px;
 }
 
 .feature-08-bottom-div111 {
-  border: 2px solid red;
-  width: 300px;
+  /* border: 2px solid red; */
+  /* width: 300px; */
   padding: 20px;
   text-align: center;
+  border-radius: 9px;
+  /* display: inline-block; */
+  position: relative;
+  overflow: hidden;
+}
+
+.div222-right {
+  border: 2px solid #fdf2e9;
+}
+
+.div222-left {
+  background-color: #fdf2e9;
+}
+
+.best-value-span {
+  /* border: 2px solid blue; */
+  /* display: inline; */
+  padding: 8px 60px;
+  font-weight: 700;
+  background-color: #ffd43b;
+  /* #fdf2e9 */
+  position: absolute;
+  top: 6%;
+  right: -55px;
+  transform: rotate(45deg);
+  /* overflow: hidden; */
 }
 
 .feature-08-bottom-div111 a {
   color: #e67e22;
   text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
 }
 
 .feature-08-bottom-div111 p {
   color: black;
-  font-size: 44px;
+  font-size: 48px;
   font-weight: 700;
   margin-top: 20px;
+  color: #333;
 }
 
 .feature-08-bottom-div111 span {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
-  color: black;
+  color: rgb(23, 23, 23);
 }
 
 .feature-08-bottom-div111 .lists {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin-top: 40px;
-  text-align: start;
+  text-align: center;
   padding: 10px;
+}
+
+.lists div {
+  /* border: 2px solid yellow; */
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.fa-xmark {
+  color: #e67e22;
+}
+
+.lists div i {
+  font-size: 22px;
+}
+
+.lists button {
+  margin-top: 50px;
+  margin-bottom: 18px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 22px;
+  font-weight: 700;
+  background-color: #e67e22;
+  color: white;
+  cursor: pointer;
 }
