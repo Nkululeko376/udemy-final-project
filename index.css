@@ -627,3 +627,31 @@ main {
   color: white;
   cursor: pointer;
 }
+
+.feature-09 {
+  border: 3px solid green;
+  width: 95%;
+  margin: auto;
+  padding: 8px;
+}
+
+.feature-09-about-section {
+  border: 2px solid red;
+  width: 300px;
+  text-align: start;
+}
+
+.icon-div {
+  border: 2px solid blueviolet;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-div i {
+  font-size: 28px;
+  color: #e67e22;
+}
