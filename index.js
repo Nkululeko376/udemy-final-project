@@ -1,9 +1,14 @@
-// let menuBtn = document.querySelector("#menuBtn");
-// let webBody = document.querySelector("body");
+let menuBtn = document.querySelector("#menuBtn");
+let webBody = document.querySelector("body");
+let removeNav = document.querySelector("#removeNav");
 
-// menuBtn.addEventListener("click", () => {
-//   // alert("The button was clicked");
-//   // webBody.style = "background-color: red;";
+menuBtn.addEventListener("click", () => {
+  // alert("The button was clicked");
+  // webBody.style = "background-color: red;";
 
-//   webBody.classList.add("my-body");
-// });
+  webBody.classList.add("my-body");
+});
+
+removeNav.addEventListener("click", () => {
+  webBody.classList.remove("my-body");
+});

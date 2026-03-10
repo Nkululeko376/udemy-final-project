@@ -875,30 +875,27 @@ main {
 }
 
 .nav-links-container-responsive {
-  background-color: rgba(255, 255, 255, 0.877);
-  border: 4px solid green;
-  /* width: 100%; */
-  /* height: 100vh; */
+  background-color: rgba(255, 255, 255, 0.957);
+  /* border: 4px solid green; */
   top: 0px;
   right: 0;
   left: 0;
-  height: 100%;
-  margin-top: -41px;
-  position: relative;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  /* display: none; */
+  height: 100vh;
+  position: absolute;
   visibility: hidden;
 }
 
 .nav-links-container-responsive div {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  text-align: center;
-  padding: 15px;
+  height: 100%;
+  /* text-align: center; */
+  position: relative;
+  /* padding-top: 40px; */
 }
 
 .nav-links-container-responsive div a {
@@ -914,7 +911,7 @@ main {
 
 .nav-links-container-responsive div button {
   width: 150px;
-  margin: auto;
+  margin: 10px auto 0px;
   font-size: 18px;
   font-weight: 700;
   padding: 8px;
@@ -931,7 +928,7 @@ main {
 
 .fa-xmark {
   cursor: pointer;
-  position: relative;
+  position: absolute;
   font-size: 24px;
   padding: 5px;
   top: 15px;
@@ -944,7 +941,6 @@ main {
 
 .my-body .nav-links-container-responsive {
   visibility: visible;
-  /* display: block; */
 }
 
 @media (max-width: 750px) {
