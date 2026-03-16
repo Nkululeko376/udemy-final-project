@@ -320,12 +320,12 @@ main {
 
 .the-columns {
   /* width: 350px; */
-  border: 3px solid red;
+  /* border: 3px solid red; */
   border-radius: 10px;
 }
 
 .feature-06-col1 {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   /* padding-left: 24px; */
 }
 
