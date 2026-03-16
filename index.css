@@ -320,12 +320,12 @@ main {
 
 .the-columns {
   /* width: 350px; */
-  /* border: 3px solid red; */
+  border: 3px solid red;
   border-radius: 10px;
 }
 
 .feature-06-col1 {
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
   /* padding-left: 24px; */
 }
 
@@ -4105,10 +4105,11 @@ main {
 
   .delivered-members .right-div {
     font-size: 13px;
+    font-weight: 500;
   }
 
   .delivered-members .right-div span {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .loggos-section {
@@ -4205,8 +4206,22 @@ main {
   height: 100%;
 }
 
-
-
-
+.feature-06-col1 {
+  /* border: 2px solid blue; */
+  /* padding-left: 24px; */
+  margin-bottom: 150px;
+}
 
 }
+
+
+
+@media (max-width: 390px){
+   .left-div {
+    /* width: 60%; */
+    /* border: 3px solid black; */
+    margin-right: -15px;
+  }
+}
+
+
